@@ -1,4 +1,4 @@
-# Convert a space-separated string of numbers into a dictionary with 1-based indexing, with an optional parameter to offset the key.
+# Convert a space-separated string of numbers into a dictionary with 1-based indexing.
 def convert_from_str_to_dict(s):
     s = s.replace(",", "").split(" ")
     d = {}
